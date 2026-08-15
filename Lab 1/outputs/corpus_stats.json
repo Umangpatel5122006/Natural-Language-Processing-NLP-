@@ -1,0 +1,15 @@
+{
+  "total_sentences": 100000,
+  "total_words": 1494598,
+  "total_characters": 8778114,
+  "average_sentence_length": 14.946,
+  "average_word_length": 4.8285,
+  "type_token_ratio": 0.094513,
+  "input_path": "E:\\STUDY\\NLP\\Language\\gu.txt",
+  "output_txt": "E:\\STUDY\\NLP\\Lab 1\\outputs\\tokenized_sentences.txt",
+  "output_detailed_txt": "E:\\STUDY\\NLP\\Lab 1\\outputs\\tokenized_sentences_with_source.txt",
+  "output_parquet": "E:\\STUDY\\NLP\\Lab 1\\outputs\\tokenized_sentences.parquet",
+  "output_token_stats_csv": "E:\\STUDY\\NLP\\Lab 1\\outputs\\token_statistics.csv",
+  "elapsed_seconds": 7.3,
+  "max_sentences_cap": 100000
+}

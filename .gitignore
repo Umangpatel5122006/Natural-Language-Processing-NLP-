@@ -1,0 +1,28 @@
+# # Local environment and Python caches
+# myenv/
+# .venv/
+# __pycache__/
+# **/__pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
+
+# # Large local datasets and generated artifacts that should not be committed
+# Language/gu.txt
+# Language/._gu.txt
+# Lab 1/data/gujarati.txt
+# E:\STUDY\NLP\Lab 1\data\gujarati.txt
+# Temp/gujarati.parquet
+
+# # Legacy path placeholders
+# Assignment_1/outputs/tokenized_sentences_with_source.txt
+# Assignment_1/outputs/*.parquet
+
+# Large raw datasets
+Lab 1/data/
+Language/
+Temp/
+
+# File types and generated artifacts
+*.parquet
+Lab 1/outputs/
