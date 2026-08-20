@@ -26,3 +26,4 @@ Temp/
 # File types and generated artifacts
 *.parquet
 Lab 1/outputs/
+Lab 3\temp.ipynb
