@@ -1,0 +1,5 @@
+model,order,unique_ngrams,dev_perplexity,test_perplexity
+Unigram,1,139533,inf,inf
+Bigram,2,847597,inf,inf
+Trigram,3,1249480,inf,inf
+Quadrigram,4,1389285,inf,inf
