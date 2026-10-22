@@ -1,0 +1,35 @@
+{
+  "pair_score": "pair_frequency / (left_piece_frequency * right_piece_frequency)",
+  "word_frequencies": {
+    "low": 5,
+    "lower": 2,
+    "lowest": 3,
+    "new": 4,
+    "newer": 2
+  },
+  "merges": [
+    {
+      "pair": [
+        "##s",
+        "##t"
+      ],
+      "frequency": 3,
+      "score": 0.3333333333333333
+    },
+    {
+      "pair": [
+        "l",
+        "##o"
+      ],
+      "frequency": 10,
+      "score": 0.1
+    }
+  ],
+  "newest_tokenization": [
+    "n",
+    "##e",
+    "##w",
+    "##e",
+    "##st"
+  ]
+}

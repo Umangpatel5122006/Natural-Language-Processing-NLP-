@@ -1,0 +1,49 @@
+{
+  "feature_order": [
+    "free",
+    "win",
+    "offer"
+  ],
+  "email_E8": [
+    0,
+    0,
+    0
+  ],
+  "class_calculations": {
+    "Spam": {
+      "class_count": 4,
+      "prior": 0.5714285714285714,
+      "feature_probabilities": {
+        "free": 0.75,
+        "win": 0.75,
+        "offer": 0.75
+      },
+      "prediction_factors": {
+        "free": 0.25,
+        "win": 0.25,
+        "offer": 0.25
+      },
+      "likelihood": 0.015625,
+      "unnormalized_score": 0.008928571428571428,
+      "posterior": 0.0656934306569343
+    },
+    "NotSpam": {
+      "class_count": 3,
+      "prior": 0.42857142857142855,
+      "feature_probabilities": {
+        "free": 0.3333333333333333,
+        "win": 0.3333333333333333,
+        "offer": 0.3333333333333333
+      },
+      "prediction_factors": {
+        "free": 0.6666666666666667,
+        "win": 0.6666666666666667,
+        "offer": 0.6666666666666667
+      },
+      "likelihood": 0.2962962962962964,
+      "unnormalized_score": 0.126984126984127,
+      "posterior": 0.9343065693430658
+    }
+  },
+  "prediction": "NotSpam"
+}

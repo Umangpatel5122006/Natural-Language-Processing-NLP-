@@ -1,0 +1,13 @@
+{
+  "model": "argmax_correct_word(P(error|correct_word) * P(correct_word))",
+  "channel": "P(error_piece|correct_piece) from count_1edit.txt with add-alpha smoothing and edit-character backoff, alpha=0.1",
+  "candidate_generation": "dictionary words at exactly one Damerau edit",
+  "evaluation_pairs": 39710,
+  "distinct_errors": 36978,
+  "frequency_weighted_examples": 41718,
+  "frequency_weighted_accuracy": 0.29464499736324845,
+  "candidate_coverage": 0.3671556642216789,
+  "accuracy_when_gold_is_in_candidates": 0.802507018345629,
+  "unweighted_accuracy": 0.28312767564845126,
+  "unweighted_candidate_coverage": 0.34996222613951145
+}

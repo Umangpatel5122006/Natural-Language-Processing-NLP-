@@ -12,6 +12,8 @@ This repository contains coursework and experiments organized by lab. Each lab's
 | [Lab 4](./Lab%204/) | Unsmoothed unigram, bigram, trigram, and quadrigram language models; evaluation and add-one (Laplace) smoothing. | `q1.ipynb`, `ngram_results.csv` |
 | [Lab 5](./Lab%205/) | Add-K-smoothed n-gram language models and dev/test perplexity evaluation. | `q1.ipynb`, `add_k_results.csv` |
 | [Lab 6](./Lab%206/) | N-gram language models with interpolated smoothing and perplexity evaluation. | `q1.ipynb`, `smoothing_results.csv` |
+| [Lab 7](./Lab%207/) | Hindi part-of-speech tagging with Naive Bayes and HMM decoding. | `q1.ipynb`, `outputs/` |
+| [Lab 8](./Lab%208/) | NLP questions on morphology, wordpiece, TF-IDF, Naive Bayes, and Kneser–Ney smoothing. | `mid_sem_soln.ipynb`, `outputs/` |
 
 ## Getting started
 

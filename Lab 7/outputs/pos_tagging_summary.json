@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "Naive Bayes": {
+      "accuracy": 0.9101859575094451,
+      "macro_f1": 0.7435880841155681
+    },
+    "Forward Viterbi": {
+      "accuracy": 0.9304989941612286,
+      "macro_f1": 0.9070833953474354
+    },
+    "Backward Viterbi": {
+      "accuracy": 0.9304989941612286,
+      "macro_f1": 0.9070833953474354
+    },
+    "Forward-backward": {
+      "accuracy": 0.9307443206908395,
+      "macro_f1": 0.9082195722400722
+    }
+  },
+  "test": {
+    "Naive Bayes": {
+      "accuracy": 0.9103947844983702,
+      "macro_f1": 0.7599673770207667
+    },
+    "Forward Viterbi": {
+      "accuracy": 0.9285041651575516,
+      "macro_f1": 0.8674599096911186
+    },
+    "Backward Viterbi": {
+      "accuracy": 0.9285041651575516,
+      "macro_f1": 0.8674599096911186
+    },
+    "Forward-backward": {
+      "accuracy": 0.929469998792708,
+      "macro_f1": 0.8635202643229861
+    }
+  }
+}

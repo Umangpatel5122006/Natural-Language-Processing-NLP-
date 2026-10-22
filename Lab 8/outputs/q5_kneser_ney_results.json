@@ -1,0 +1,30 @@
+{
+  "discount": 0.5,
+  "unique_bigram_count": 8,
+  "continuation_probabilities": {
+    "like": 0.25,
+    "NLP": 0.25,
+    "AI": 0.25,
+    "love": 0.25
+  },
+  "requested_probabilities": {
+    "P(AI | love)": {
+      "bigram_count": 1,
+      "context_count": 2,
+      "distinct_followers": 2,
+      "discounted_probability": 0.25,
+      "backoff_weight": 0.5,
+      "continuation_probability": 0.25,
+      "probability": 0.375
+    },
+    "P(NLP | like)": {
+      "bigram_count": 2,
+      "context_count": 3,
+      "distinct_followers": 2,
+      "discounted_probability": 0.5,
+      "backoff_weight": 0.3333333333333333,
+      "continuation_probability": 0.25,
+      "probability": 0.5833333333333334
+    }
+  }
+}

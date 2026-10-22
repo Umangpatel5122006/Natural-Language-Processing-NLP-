@@ -1,0 +1,112 @@
+{
+  "states": [
+    "q0",
+    "q_regular",
+    "q_sibilant",
+    "q_regular_noun",
+    "q_sibilant_noun",
+    "q_final"
+  ],
+  "start_state": "q0",
+  "final_state": "q_final",
+  "transition_table": [
+    {
+      "from": "q0",
+      "input": "regular stem",
+      "output": "copy stem",
+      "to": "q_regular"
+    },
+    {
+      "from": "q0",
+      "input": "stem ending s, x, z, ch, or sh",
+      "output": "copy stem",
+      "to": "q_sibilant"
+    },
+    {
+      "from": "q_regular",
+      "input": "+N",
+      "output": "epsilon",
+      "to": "q_regular_noun"
+    },
+    {
+      "from": "q_sibilant",
+      "input": "+N",
+      "output": "epsilon",
+      "to": "q_sibilant_noun"
+    },
+    {
+      "from": "q_regular_noun",
+      "input": "+SG",
+      "output": "epsilon",
+      "to": "q_final"
+    },
+    {
+      "from": "q_sibilant_noun",
+      "input": "+SG",
+      "output": "epsilon",
+      "to": "q_final"
+    },
+    {
+      "from": "q_regular_noun",
+      "input": "+PL",
+      "output": "s",
+      "to": "q_final"
+    },
+    {
+      "from": "q_sibilant_noun",
+      "input": "+PL",
+      "output": "es",
+      "to": "q_final"
+    }
+  ],
+  "examples": [
+    {
+      "lexical_input": "cat+N+SG",
+      "surface_output": "cat"
+    },
+    {
+      "lexical_input": "cat+N+PL",
+      "surface_output": "cats"
+    },
+    {
+      "lexical_input": "bus+N+SG",
+      "surface_output": "bus"
+    },
+    {
+      "lexical_input": "bus+N+PL",
+      "surface_output": "buses"
+    },
+    {
+      "lexical_input": "box+N+SG",
+      "surface_output": "box"
+    },
+    {
+      "lexical_input": "box+N+PL",
+      "surface_output": "boxes"
+    },
+    {
+      "lexical_input": "buzz+N+SG",
+      "surface_output": "buzz"
+    },
+    {
+      "lexical_input": "buzz+N+PL",
+      "surface_output": "buzzes"
+    },
+    {
+      "lexical_input": "church+N+SG",
+      "surface_output": "church"
+    },
+    {
+      "lexical_input": "church+N+PL",
+      "surface_output": "churches"
+    },
+    {
+      "lexical_input": "dish+N+SG",
+      "surface_output": "dish"
+    },
+    {
+      "lexical_input": "dish+N+PL",
+      "surface_output": "dishes"
+    }
+  ]
+}
