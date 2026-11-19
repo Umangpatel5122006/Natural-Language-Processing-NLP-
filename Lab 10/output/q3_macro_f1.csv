@@ -1,0 +1,7 @@
+embedding,representation,macro_f1
+Word2Vec,Average,0.7959183673469388
+Word2Vec,TF-IDF weighted,0.77999911999648
+GloVe,Average,0.7729816115105324
+GloVe,TF-IDF weighted,0.743990783668212
+FastText,Average,0.8108818011257035
+FastText,TF-IDF weighted,0.7629978669808029

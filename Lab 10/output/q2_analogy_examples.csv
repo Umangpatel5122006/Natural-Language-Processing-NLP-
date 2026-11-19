@@ -1,0 +1,4 @@
+embedding,good:bad:excellent,delivery:late:fast
+Word2Vec,atrocious,early
+GloVe,mediocre,early
+FastText,superb,early
